@@ -102,8 +102,30 @@ hr {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 25px;
+    margin: 30px 0;
 }
 
-.course img {
-    width: 224px;
+.course {
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+}
+
+.cover {
+    width: 100%;
+}
+
+.cover img {
+    width: 100%;
+    /* min-width: 200px; */
+    /* max-width: 224px; */
+}
+
+.course-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+.course-author {
+    color: #ED6B4F;
+    font-weight: 500;
 }
